@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E88E4"
+    tools:context=".SplashScreen">
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="48dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/headerlogo" />
+
+        <TextView
+            android:id="@+id/librelogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@+id/imageView3"
+            android:fontFamily="@font/andada"
+            android:text="@string/libre"
+            android:textColor="#ffffff"
+            android:textSize="30dp"></TextView>
+
+        <TextView
+            android:id="@+id/healthlogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/librelogo"
+            android:fontFamily="@font/andada"
+            android:text="Health | "
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/healthlogo"
+            android:fontFamily="@font/leckerli_one"
+            android:text="admin"
+            android:textColor="#000000"
+            android:textSize="32dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

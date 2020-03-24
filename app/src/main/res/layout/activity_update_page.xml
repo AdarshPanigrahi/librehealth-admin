@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdatePage"
+    android:background="#E1DFDF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#1E88E4"
+        app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/hlogo2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/headerlogo" />
+
+        <TextView
+            android:id="@+id/libre2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/hlogo2"
+            android:fontFamily="@font/andada"
+            android:text="Libre"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/health1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/libre2"
+            android:fontFamily="@font/andada"
+            android:text="Health | "
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="admin"
+            android:textSize="32dp"
+            android:fontFamily="@font/leckerli_one"
+            android:textColor="#000000"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/health1"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_bar2"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:queryHint="Enter hospital name"
+        app:iconifiedByDefault="false"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:paddingRight="10dp"
+        android:focusable="false">
+    </androidx.appcompat.widget.SearchView>
+
+     <TextView
+         android:id="@+id/news"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=" Recents :"
+         android:layout_marginStart="4dp"
+         android:textColor="#000000"
+         android:textSize="20dp"
+         app:layout_constraintTop_toBottomOf="@id/search_bar2"
+         android:layout_marginTop="15dp"
+         android:fontFamily="@font/acme"
+         app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/shape_login_panel1"
+        app:layout_constraintTop_toBottomOf="@id/news"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/abhaya_libre"
+                android:text="The Mount Sinai Hospital have just now updated their ChargeMaster"
+                android:textColor="#000000"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/t2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:layout_marginStart="2dp"
+                android:text="2 hours ago"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tv1"
+                app:layout_constraintRight_toRightOf="parent"
+                android:fontFamily="@font/acme"
+                android:text="See more  "
+                android:textColor="#000000"
+                android:textSize="18dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/shape_login_panel1"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintTop_toBottomOf="@id/card1"
+        android:layout_marginTop="8dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="25dp"
+                android:fontFamily="@font/abhaya_libre"
+                android:textColor="#000000"
+                android:layout_marginStart="2dp"
+                android:text="A new hospital has opened up today in western California"/>
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9 hours ago"
+                android:layout_marginStart="2dp"
+                android:textSize="18dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv2"
+                android:fontFamily="@font/acme"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="See more  "
+                android:textSize="18dp"
+                app:layout_constraintTop_toBottomOf="@id/tv2"
+                app:layout_constraintRight_toRightOf="parent"
+                android:fontFamily="@font/acme"
+                android:textColor="#000000" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/shape_login_button"
+        android:fontFamily="@font/acme"
+        android:text="Add  new  Hospital"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@id/btn1"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="5dp" />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/shape_login_button"
+        android:fontFamily="@font/acme"
+        android:text="Update  All  Hospitals"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="5dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

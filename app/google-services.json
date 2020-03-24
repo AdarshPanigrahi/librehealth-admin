@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1000980373255",
+    "firebase_url": "https://librehealth-database.firebaseio.com",
+    "project_id": "librehealth-database",
+    "storage_bucket": "librehealth-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000980373255:android:49a3cfb6580ae2424aefa2",
+        "android_client_info": {
+          "package_name": "com.adarshpanig.librehealthadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000980373255-qlpbdl7pv2j9ncd7f39khjhgqmve78a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVq-ZqhoqqBbvpv9kWJ8Z498V5RgGmEds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000980373255-qlpbdl7pv2j9ncd7f39khjhgqmve78a5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

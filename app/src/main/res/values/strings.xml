@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">LibreHealth POC</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="hc">Health Care</string>
+    <string name="nb">Nearby hospitals:</string>
+    <string name="bhca"> Bellevue Hospital Centre</string>
+    <string name="lhha"> Lenox Hill Hospital</string>
+    <string name="tmsha"> The Mount Sinai Hospital</string>
+    <string name="sbhc"> Search by Health Concern:</string>
+    <string name="rc">Respiratory Care</string>
+    <string name="bjc">Bone and Joint Care</string>
+    <string name="pr">Pain Relief</string>
+    <string name="mc">Medicines</string>
+    <string name="nps"> Nearby Pharmacy Stores:</string>
+    <string name="nms"> NY Medical Supplies</string>
+    <string name="hp"> Halpern Pharmacy</string>
+    <string name="fs"> Falk Surgical</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="login">login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="libre">Libre</string>
+    <string name="health">Health</string>
+    <string name="cdm_code_4004545">CDM CODE : 4004545</string>
+    <string name="dept_num_1443">Dept Num: 1443</string>
+    <string name="no_settings_yet">No Settings yet :)</string>
+    <string name="no_notifications">No Notifications</string>
+</resources>
