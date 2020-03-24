@@ -1,6 +1,6 @@
 # librehealth-admin
 ## About
-It is the backend application of my LibreHealth POC application https://github.com/AdarshPanigrahi/librehealth-admin . I have implemented web scraping using Retrofit Android.
+It is the backend application of my LibreHealth POC application https://github.com/AdarshPanigrahi/librehealth-poc . I have implemented web scraping using Retrofit Android.
 Retrofit is type-safe REST client for Android and Java which aims to make it easier to consume RESTful web services.
 
 As this is a prototype application so here I am pinging only one hospital(Atlenticare Hospital).
