@@ -17,5 +17,6 @@ For now to login into the application you can enter any dummy data or simply cli
 <img src="ScreenShots/updatepage.jpg" width =200> <img src="ScreenShots/updatingpage.jpg" width =200> <img src="ScreenShots/updatedpage.jpg" width =200>
 
 ### FireBase ScreenShots
+Firebase is used for the authentication and realtime database service.
 <img src="ScreenShots/firebase-realtime.jpg" width =600>   
 <img src="ScreenShots/firebase-storage.jpg" width =600>
